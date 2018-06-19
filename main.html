@@ -1,20 +1,68 @@
+<!DOCTYPE html>
 <html>
 <head>
 <style>
-ul{background-color:yellow;
-}
-li{display:inline-block;
-margin-top:0;}
+body{
+	margin:0;
+	padding:0;
+	background-color:#0097a7;
+     }
+.header{margin:auto;
+	width:25%;
+	color:white;
+	font-size:36px;
+	margin-top:100px;
+	border-bottom:2px solid #5F9EA0;
+	padding-bottom:20px;
+	}
+.myform {margin:auto;
+	width:20%;
+	margin-top:10px;
+	border-bottom:2px solid #5F9EA0;
+	padding-bottom:20px;
+	}
+input{  width:100%;
+ 	padding: 12px 20px;
+    	margin: 8px 0;
+    	display: inline-block;
+    	border: 1px solid #ccc;
+   	border-radius: 2px;
+   	box-sizing: border-box;
+	}
+.div1{margin:auto;
+	width:20%;
+	border-bottom:2px solid #5F9EA0}
+.button{background-color:#008B8B;
+	color:white;
+	text-align:center;
+	display:inline-block;
+	margin:15px 2px;
+	width:45%;
+	height:40px;
+	border-color:#008B8B;
+	cursor:pointer;	
+	}
+.myimage{width:60px;
+	height:60px;}
+
 </style>
 </head>
-<body style="background-color:green">
-<h1 style="background-color:lightblue;font-size:36px;text-align:center;color:white;">Event Calendar</h1>
-<ul> 
-<li>Home</li>
-<li>Tools</li>
-<li>Books</li>
-<li>Pictures</li>
-</ul>
+<body>
+<div class="header"><img src="ev2.png" alt="event" class="myimage" >
+Event calendar</div>
+<form class="myform">
+ <br>
+  <input type="email" name="email" placeholder="Email adress"><br>
+  <br>
+  <input type="password" name="password" placeholder="Password"><br>
+<a href=""style="text-decoration:none"><span style="color:white;font-size:12px;">Forgot your password?</span></a>
+<br>
+<br>
+  <input type="submit" value="Sign in"><br>
+</form>
+<div class="div1"> 
+<a href=""><button class="button">Creat Account</button></a>
+<a href="about.html"><button class= "button" style="float:right">Learn more</button></a>
+</div>
 </body>
-
 </html>
